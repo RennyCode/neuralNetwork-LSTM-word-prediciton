@@ -10,10 +10,10 @@ Using the Keras libary we build different types of models and show the possibili
 
 ## Models
 In this notebook we prepare 4 distinc models:
-M1 - single lstm layer with forward prediciton
-M2 - single lstm layer with backward prediciton
-M3 - two lstm layers with forward prediciton
-M4 - two lstm layers with backward prediciton
+- M1 - single lstm layer with forward prediciton
+- M2 - single lstm layer with backward prediciton
+- M3 - two lstm layers with forward prediciton
+- M4 - two lstm layers with backward prediciton
 
 
 ## Data preparation
