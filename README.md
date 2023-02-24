@@ -4,6 +4,7 @@ Using the Keras libary we build different types of models and show the possibili
 
 ## Workflow
 - Import relevant libaries and datasets
+- Prepare the data
 - Build and train models based on lstms
 - Demonstration of the usage of language models
 
@@ -14,8 +15,15 @@ M2 - single lstm layer with backward prediciton
 M3 - two lstm layers with forward prediciton
 M4 - two lstm layers with backward prediciton
 
+
+## Data preparation
+We edit our dictionary to contain all of the word of the dataset and add symboles for practical prediction such as a start sentence symbol, end sentence, uknknown symbol.
+Also we sample the sentences of the dataset in a way that we will create our target by moving the sentence one word foward.
+
+
 ## Usage
-- Predicit a sentence by continues prediciont upon the next word
+- Predicit the next word.
+- Predicit a sentence by continues prediciont upon the next word.
 - Calculate probalility for a prediction of a specific word.
 - Calculate probalility for a prediction of a specific sentence.
 
